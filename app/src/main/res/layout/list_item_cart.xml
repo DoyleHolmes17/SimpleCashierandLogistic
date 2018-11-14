@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:shrinkColumns="*"
+    android:stretchColumns="*" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal"
+        android:id="@+id/LV">
+
+        <TextView
+            android:id="@+id/text_no"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:visibility="gone"
+            android:text="No"
+            android:textAlignment="center"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/text_barang"
+            android:layout_width="0dp"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:text="Barang"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/text_qty"
+            android:layout_width="0dp"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:text="Qty"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/text_harga"
+            android:layout_width="0dp"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:layout_weight="15"
+            android:text="Harga"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/text_sub_total"
+            android:layout_width="0dp"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:text="Sub Total"
+            android:textColor="#000000" />
+
+        <Button android:id="@+id/delete_produk"
+            android:layout_width="0dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:textSize="6dp"
+            android:layout_height="25dp"
+            android:layout_weight="6"
+            android:background="@drawable/icon_delete"
+            android:textColor="#000000"/>
+    </LinearLayout>
+
+</TableLayout>

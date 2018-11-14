@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "707769260713",
+    "firebase_url": "https://iris-719b6.firebaseio.com",
+    "project_id": "iris-719b6",
+    "storage_bucket": "iris-719b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707769260713:android:45417121bccc12bd",
+        "android_client_info": {
+          "package_name": "com.farid.iris"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "707769260713-b5jbtpbtjfnj00nge25g6qhocurhs7h4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSQ7p9sLq6Wows-XWqI9eBt0dJcV3SMeY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707769260713:android:c02d939e90752db7",
+        "android_client_info": {
+          "package_name": "syde.co.smartregister"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "707769260713-b5jbtpbtjfnj00nge25g6qhocurhs7h4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSQ7p9sLq6Wows-XWqI9eBt0dJcV3SMeY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
